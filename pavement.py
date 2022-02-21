@@ -17,7 +17,7 @@ This automatically put the checksum into README.rst, and writes the Changelog.
 TODO
 ====
     - the script is messy, lots of global variables
-    - make it more easily customizable (through command line args)
+    - make it more easily customizable (through command line args) 
     - missing targets: install & test, sdist test, debian packaging
     - fix bdist_mpkg: we build the same source twice -> how to make sure we use
       the same underlying python for egg install in venv and for bdist_mpkg
